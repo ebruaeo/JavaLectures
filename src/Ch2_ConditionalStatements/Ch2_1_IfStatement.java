@@ -15,5 +15,9 @@ public class Ch2_1_IfStatement {
         if(userPassword == password){
             System.out.println("Successfull");
         }
+        int e = 24;
+        if (e > 5){
+            System.out.println("jdjdj");
+        }
     }
 }

@@ -34,6 +34,8 @@ public class Ch1_2_MathematicalOperations {
         System.out.print("d1: ");
         System.out.println(d1);
 
+
+
         // expression: hesaplama gerektiren ifadelerdir. Örn; 3 + 7 - 2.1
 
         // integer division
@@ -104,5 +106,36 @@ public class Ch1_2_MathematicalOperations {
         double divi = 6.0 / 5;
         System.out.print("divi=");
         System.out.println(divi);
+
+        // kendi örneklerim;
+        int y = 4 + 5;
+        System.out.print("y = " );
+        System.out.println(y);
+        double d = 3.0 - 4;
+        System.out.println(d);
+        int i = 3*5;
+        System.out.println(i);
+        double ö = 4*7;
+        System.out.println(ö);
+        int l = 4/2;
+        System.out.println(l);
+        int ş = 5/2;
+        System.out.println(ş);
+        double m = 4/2;
+        System.out.println(m);
+        double n =5.0/2;
+        System.out.println(n);
+        int b = 9%5;
+        System.out.println(b);
+
+
+        int f = 7*(4+6)/2;
+        System.out.println(f);
+
+
+        int a1 = 15;
+        int a2 = 20;
+        int a3 = a1 + a2;
+        System.out.println(a3);
     }
 }

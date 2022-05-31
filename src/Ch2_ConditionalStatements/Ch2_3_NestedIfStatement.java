@@ -1,5 +1,7 @@
 package Ch2_ConditionalStatements;
 
+import java.util.Objects;
+
 public class Ch2_3_NestedIfStatement {
     public static void main(String[] args) {
         int grade = 95;
@@ -17,6 +19,7 @@ public class Ch2_3_NestedIfStatement {
         } else if (grade >= 60 && grade < 70) {
             System.out.println("CB");
         }
+
         // şart bloklarıyla çalışırken blok içerisine tek satır kod yazıyorsak süslü parantez kullanmasak da kod çalışır.
         // Ancak kod okunurluğu açısından daha iyi olması için yinede süslü parantez kullanmayı tercih ederiz.
 
@@ -30,6 +33,14 @@ public class Ch2_3_NestedIfStatement {
             System.out.println("Onu öf, ona hediye al");
         } else if (ebrununModu == "sıkılmış") {
             System.out.println("Onu öf, ona hediye al");
+        }
+        String tür = "pop";
+        if (Objects.equals(tür,"slow")){
+            System.out.println("çalınıyors.");
+        } else if (tür == "R&B"){
+            System.out.println("çalınıyorr");
+        } else if (tür == "pop") {
+            System.out.println("çalınıyorpop");
         }
     }
 

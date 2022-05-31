@@ -83,5 +83,25 @@ public class Ch1_3_AugmentedOperators {
         a %= 11;
         System.out.print("a:");
         System.out.println(a);
+
+
+        int r = 3;
+        r += 3;
+        System.out.println(r);
+        int v = 4;
+        v *= 6;
+        System.out.println(v);
+        int g = 15;
+        g++;
+        System.out.println(g);
+        int ö = 77;
+        ö--;
+        System.out.println(ö);
+
+        double l = 3.5;
+        l += 20;
+        System.out.println(l);
+
+
     }
-}
+    }

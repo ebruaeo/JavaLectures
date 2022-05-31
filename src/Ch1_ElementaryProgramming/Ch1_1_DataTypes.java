@@ -78,6 +78,15 @@ public class Ch1_1_DataTypes {
         System.out.print("is light on? answer: ");
         System.out.println(isLightOn);
 
+        // ****
+        int intZero = 0;
+        char charZero = '0';
+        String strZero = "0";
+        System.out.println(intZero);
+        System.out.println(charZero);
+        System.out.println(strZero);
+
+
         // ** aynı isimli sadece 1 tane değişken tanımlayabilirsin
 //        boolean b; // bu satır hatalı çünkü yukarda boolean b olarak declaration yapıldı.
 
@@ -103,6 +112,20 @@ public class Ch1_1_DataTypes {
         String username = "omerokumus1";
         String password = "123456";
 
+// kendi örneklerim
+
+        int w; // burada tanımlama yaptım declaration
+        w = 4; // burada atama yaptım assignment
+        //int w =4; // bi kere tanımladığım için hata verir.
+        int q = 5;
+        System.out.println(q); // neden yazdırmadı? ++
+
+        double ç = 3.4;
+        System.out.println(ç);
+
+        String a = "anne";
+        System.out.print("a means ");
+        System.out.println(a);
+        }
 
     }
-}
